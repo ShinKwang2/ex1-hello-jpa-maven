@@ -120,9 +120,9 @@ public class JpaMain {
             //DB SEQ = 51   |   2
             //DB SEQ = 51   |   3
 
-            em.persist(member1);    // 1, 51 처음에는 더미로 맞춤
-//            em.persist(member2);
-//            em.persist(member3);
+            em.persist(member1);    //1, 51 처음에는 더미로 맞춤
+            em.persist(member2);    //MEM
+            em.persist(member3);    //MEM
 
             System.out.println("member1 = " + member1.getId());
             System.out.println("member2 = " + member2.getId());
